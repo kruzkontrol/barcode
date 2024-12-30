@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embroidery Barcode Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Embroidery Barcode Generator</h1>
+            <form id="upload-form">
+                <label for="file-input">Upload DST Files:</label>
+                <input type="file" id="file-input" name="files" accept=".dst" multiple>
+                <button type="submit">Generate Barcodes</button>
+            </form>
+        </div>
+        <div class="display-container" id="barcode-container">
+            <!-- Barcodes will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
